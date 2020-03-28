@@ -1,20 +1,15 @@
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/1342803/36623515-7293b4ec-18d3-11e8-85ab-4e2f8fb38fbd.png" width="320" alt="API Template">
-    <br>
-    <br>
-    <a href="http://docs.vapor.codes/3.0/">
-        <img src="http://img.shields.io/badge/read_the-docs-2196f3.svg" alt="Documentation">
-    </a>
-    <a href="https://discord.gg/vapor">
-        <img src="https://img.shields.io/discord/431917998102675485.svg" alt="Team Chat">
-    </a>
-    <a href="LICENSE">
-        <img src="http://img.shields.io/badge/license-MIT-brightgreen.svg" alt="MIT License">
-    </a>
-    <a href="https://circleci.com/gh/vapor/api-template">
-        <img src="https://circleci.com/gh/vapor/api-template.svg?style=shield" alt="Continuous Integration">
-    </a>
-    <a href="https://swift.org">
-        <img src="http://img.shields.io/badge/swift-5.1-brightgreen.svg" alt="Swift 5.1">
-    </a>
-</p>
+# Vapor Clean
+
+This is a template for Vapor 3 users that does the absolute minimum to set up a working Vapor 3 environment.
+
+Unlike the official templates that are currently available, this template does not include vast swathes of extra example code that you will always need to delete. Instead, it adds just a single “hello” route so you can be sure everything is working correctly.
+
+Although this repository contains a LICENSE file, this is meant for you to replace with whatever license you intend to use – please consider what little code is in this repository as public domain, and yours to do with as you please.
+
+It’s my hope that the official Vapor project will add a template similar to this one at some point in the future, but until then please use this however you want.
+
+## Try it out
+
+If you have already installed the Vapor toolbox, you can create a new Vapor project from this repo using the following command:
+
+    vapor new MyProject --template=twostraws/vapor-clean
